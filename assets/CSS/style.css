@@ -1,0 +1,177 @@
+* {
+    font-family: arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_img {
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(40, 37, 37);
+}
+
+nav .active a {
+    font-weight: bold;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: rgb(199, 42, 173);
+    color: azure;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 680px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_headline h1 {
+    color: rgb(245, 242, 242);
+    font-size: 60px;
+    text-shadow: 1px 1px 0px #555555;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+
+}
+
+.banner_headline h2 {
+    color: rgb(245, 242, 242);
+    font-size: 21px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.banner_options {
+    height: 210px;
+    display: flex;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color: azure;
+    padding: 20px;
+}
+
+.banner1 {
+    background-color: rgb(197, 97, 147);
+}
+
+.banner2 {
+    background-color: rgb(197, 64, 170);
+}
+
+.banner3 {
+    background-color: rgb(198, 21, 163);
+}
+
+.banner_title {
+    font-size: 21px;
+    margin: 0;
+}
+
+.banner_desc {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.banner3_items {
+    padding: 0;
+}
+
+.banner3_desc {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 10px 0;
+    list-style-type: none;
+    border-bottom: 1px rgb(200, 136, 168) solid;
+}
+
+.banner_options a {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.banner3,
+.banner_semana {
+    border-bottom: 2px;
+}
+
+.banner_desc1 {
+    text-align: justify;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border-bottom: 1px solid #bcb9b9;
+    font-size: 14px;
+}
